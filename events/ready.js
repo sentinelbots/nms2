@@ -1,7 +1,7 @@
 const request = require('superagent');
 
 exports.run = (client) => {
-  client.user.setGame("Say: spambot.info");
+  client.user.setGame("Say: spambot.help");
   post_carbonitex_server_count(client);
   setInterval(()=> {
     post_carbonitex_server_count(client);

@@ -1,5 +1,4 @@
-
-exports.run = (client, msg, [action, key, value]) => {
+exports.run = (client, msg) => {
   msg.channel.sendMessage("My apologies. For technical reasons, configuration is disabled for the moment. Please do not worry, I will still protect you using default configuration (10 mentions)!");
 };
 
@@ -7,7 +6,7 @@ exports.conf = {
   enabled: true,
   guildOnly: true,
   aliases: [],
-  permLevel: 3,
+  permLevel: 2,
   botPerms: [],
   requiredFuncs: []
 };

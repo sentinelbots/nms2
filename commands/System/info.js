@@ -4,9 +4,9 @@ It does *not* protect against any other kind of spam such as large messages, lot
 NMS is now built on the Komada framework, a plug-and-play bot builder using the Discord.js library.
 
 Both are made by LuckyEvie#4611 (aka \`root\`, user ID \`139412744439988224\`).
-For more information on Komada visit: <https://komada.js.org>. To report NMS issues visit <https://github.com/eslachance/nms2>.
+For more information on Komada visit: <https://komada.js.org>. To report NMS issues visit <https://github.com/eslachance/nms2> **or just DM me!**.
 
-**NOTE**: Configuration is currently disabled. **The bot will still protect you** but it's set to 15 mentions default and cannot be changed.`);
+**NOTE**: Configuration is currently disabled. **The bot will still protect you** but it's set to 10 mentions default and cannot be changed.`);
 };
 
 exports.conf = {
